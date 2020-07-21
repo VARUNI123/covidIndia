@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID 19 India Tracker in Java script</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid p-5 bg-light text-center my-3">
+		<h1>COVID 19 India Tracker </h1>
+		<h5 class="text-muted">
+			Open Source Project for Tracking covid 19 in India
+		</h5>
+	</div>
+	<div class="container my-5">
+		<div class="row text-center">
+			<div class="col-3 text-warning">
+				<h5>Confirmed</h5>
+				<p id="confirmed"></p>
+			</div>
+			<div class="col-3 text-info">
+				<h5>Active</h5>
+				<p id="active"></p>
+			</div>
+			<div class="col-3 text-success">
+				<h5>Recovered</h5>
+				<p id="recovered"></p>
+			</div>
+			<div class="col-3 text-danger">
+				<h5>Deaceased</h5>
+				<p id="deaths"></p>
+			</div>
+		</div>
+		<canvas id="myChart"></canvas>
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
